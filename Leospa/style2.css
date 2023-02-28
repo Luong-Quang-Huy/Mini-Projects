@@ -1,0 +1,80 @@
+/*layout procedures section*/
+
+
+/*layout testimonial section*/
+.testimonial {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff9f8;
+}
+
+.testimonial__content {
+  max-width: 920px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.testimonial__icon--quote {
+  width: 59px;
+  margin: 0 0 49px;
+}
+
+.testimonial__client-perspective {
+  color: #263a41;
+  font-family: "Rufina";
+  font-size: 18px;
+  line-height: 35px;
+  margin: 0px 0px 43px;
+}
+
+.testimonial__client-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonial .client-info--photo {
+  width: 76px;
+  height: 76px;
+  margin: 0 0 22px;
+}
+.testimonial .client-info--photo img {
+  border-radius: 50%;
+}
+
+.testimonial .client-info--name {
+  color: #263a41;
+  font-family: "Rufina";
+  font-size: 22px;
+  line-height: 35px;
+}
+
+.testimonial__client-info div:last-of-type span:last-of-type {
+  color: #263a41;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 35px;
+}
+
+.testimonial__owl-dot {
+  display: flex;
+  justify-content: center;
+  gap: 3px;
+  margin: 30px 0 50px;
+}
+
+.testimonial__owl-dot > .dot {
+  background-color: #ffc3c2;
+  border-radius: 50%;
+  width: 7px;
+  height: 7px;
+}
+
+/*layout team content*/
+.member__card {
+  flex: 0 1 350px;
+}
