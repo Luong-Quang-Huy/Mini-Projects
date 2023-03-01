@@ -1,6 +1,5 @@
 /*layout procedures section*/
 
-
 /*layout testimonial section*/
 .testimonial {
   padding: 50px 0;
@@ -77,4 +76,102 @@
 /*layout team content*/
 .member__card {
   flex: 0 1 350px;
+  box-shadow: 0 5px 20px #f0f0f0;
+}
+.member__media {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 0 0 29px;
+  display: none;
+}
+
+.member__media-logo {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 50%;
+  color: #30383b;
+  display: block;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0px 5px;
+  text-align: center;
+}
+
+.member__media-logo:hover {
+  background-color: #ff817e;
+  color: white;
+  border-color: #ff817e;
+}
+
+.member__card:hover > .member__media {
+  display: flex;
+}
+.member__card:hover > .member__position {
+  margin: 0;
+}
+.member__card:hover {
+  box-shadow: 0 10px 25px #d9d9d9;
+}
+
+/*layout footer*/
+.footer {
+  background-color: #fff9f8;
+}
+
+.footer__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 36px;
+}
+
+.footer__logo--leopsa {
+  width: 109px;
+}
+
+.footer__nav {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__nav-link {
+  color: #263a41;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 27px;
+  padding: 0px 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.footer__media-logo {
+  color: #3a414e;
+  display: inline-block;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 11.2px;
+  padding: 0px 10px;
+  text-align: center;
+}
+
+:is(.footer__nav-link, .footer__media-logo):hover {
+  color: #ff817e;
+}
+
+.copyright {
+  color: #888888;
+  font-family: "Roboto";
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 27px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.copyright__link{
+  color:#ff817e;
 }
